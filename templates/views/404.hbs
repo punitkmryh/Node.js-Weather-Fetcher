@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/ecology.svg" type="image/svg">
+    <title>404-Error</title>
+</head>
+
+<body>
+    <div class="main-content text-center bg-contain bg-no-repeat bg-opacity-50"
+        style="background-image: url(./img/404.svg)">
+        {{>header}}
+        <div>
+            <p class=" text-teal-900 text-xl">{{errorMessage}}</p>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/ecology.svg" type="image/svg">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="text-center">
+        {{>header}}
+        <img class="m-auto rounded-b-full shadow-2xl transition duration-500 ease-in-out hover:scale-110 transform hover:translate-y-1"
+            src="./img/avataaars (1).svg" width="180" height="180">
+        <p class="text-center text-teal-700 font-bold py-5">Created by {{name}}</p>
+        <p class="text-center">This site is created by Punitkumar. Using node.js, express.js, handlebars.js and
+            tailwindcss.<br /> It uses data from mapbox.com and darksky.net APIs!
+        </p>
+        <div class="font-bold text-teal-800 py-2">
+            <p class="text-center text-black text-teal-800 text-2xl py-4 ">Get in touch</p>
+            <div class=''>
+                <div class="float-left pl-48 px-4 ml-56 ">
+                    <img class="m-auto transition duration-500 ease-in-out hover:scale-110 transform hover:-translate-y-1"
+                        src="./img/google.svg" width="28" height="28">
+                    <a href="punitkmr95@gmail.com">Gmail</a>
+                </div>
+
+                <div class="float-left px-4">
+                    <img class=" m-auto  transition duration-500 ease-in-out hover:scale-110 transform hover:-translate-y-1"
+                        src="./img/linkedin 2.svg" width="28" height="28">
+                    <a href="https://www.linkedin.com/in/punityh" class="text-center">LinkedIn</a>
+                </div>
+
+
+                <div class="float-left  px-4">
+                    <img class="m-auto  trans.tion duration-500 ease-in-out hover:scale-110 transform hover:-translate-y-1"
+                        src="./img/github 2.svg" width="28" height="28">
+                    <a href="https://www.github.com/punitkmryh">Github</a>
+                </div>
+
+                <div class="float-left px-4">
+                    <img class="m-auto  transition duration-500 ease-in-out hover:scale-110 transform hover:-translate-y-1"
+                        src="./img/medium 2.svg" width="28" height="28">
+                    <a href="https://www.medium.com/@punitkmr">Medium</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
