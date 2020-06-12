@@ -27,7 +27,7 @@ app.use(express.static(publicDirectoryPath));
 
 app.get("", (req, res) => {
   res.render("index", {
-    title: "Weather App",
+    title: "Weather Fetcher™",
     name: "Punitkumar",
   });
 });
@@ -35,7 +35,7 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me",
-    name: "Punitkumar",
+    name: "Punitkumar Harsoor",
   });
 });
 
@@ -98,7 +98,7 @@ app.get("/help/*", (req, res) => {
 
 app.get("*", (req, res) => {
   res.render("404", {
-    title: "Ooops",
+    title: "Woops",
     name: "Punitkumar",
     errorMessage: "Page was not found.",
   });
