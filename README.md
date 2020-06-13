@@ -6,3 +6,13 @@ A simple weather application which fetches the day-tooday weather information us
 
 > A Node.js project
 ![Vue Todo App GIF](https://github.com/punitkmryh/Node.js-Web-app/blob/master/public/img/Screen%20Shot%202020-06-04%20at%2010.56.52%20PM.png)
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
