@@ -1,6 +1,6 @@
 # Node.js-Weather-fetcher-application
 A simple weather application which fetches the day-tooday weather information using Node.js, express.js, handlebars.js and TailwindCSS.
-> Demo ![Demo](https://pkmryh-weather-fetcher-app.herokuapp.com)
+> Demo (https://pkmryh-weather-fetcher-app.herokuapp.com)
 > A Node.js project
 ![Vue Todo App GIF](https://github.com/punitkmryh/Node.js-Weather-Fetcher/blob/master/public/img/home.png)
 
