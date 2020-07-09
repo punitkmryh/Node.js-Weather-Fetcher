@@ -8,9 +8,6 @@ A simple weather application which fetches the day-tooday weather information us
 > A Node.js project
 ![Weather-fetcher App](https://github.com/punitkmryh/weather-Fetcher-Node-app/blob/master/public/img/Screen%20Shot%202020-07-09%20at%201.56.52%20PM.png)
 
-> A Node.js project
-![Weather-fetcher App](https://github.com/punitkmryh/weather-Fetcher-Node-app/blob/master/public/img/Screen%20Shot%202020-07-09%20at%201.57.22%20PM.png)
-
 ## Build Setup
 
 ``` bash
