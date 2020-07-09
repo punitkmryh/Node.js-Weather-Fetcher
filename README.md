@@ -1,7 +1,5 @@
 # Node.js-Weather-fetcher-application
 
-##### Made with ♥ by <a href="https://github.com/punitkmryh">punitDev</a>
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/punitkmryh)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pkmryh-weather-fetcher-app.herokuapp.com)
 
 
